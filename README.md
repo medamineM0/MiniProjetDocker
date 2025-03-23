@@ -90,17 +90,17 @@ CMD [ "python3", "./student_age.py" ]
     CMD correspondra aux commandes exécutées par le conteneur.
 
 ### Build Docker Image à partir Dockerfile
-![Texte alternatif](screens\1.png)
-![Texte alternatif](screens\2.png)
+![Texte alternatif](screens/1.png)
+![Texte alternatif](screens/2.png)
 
 ### Lancement du conteneur
-![Texte alternatif](screens\3.png)
+![Texte alternatif](screens/3.png)
 
 ### On vérifie les logs et s'assure que le conteneur écoute et est prêt à répondre. 
-![Texte alternatif](screens\4.png)
+![Texte alternatif](screens/4.png)
 
 ### On teste la réponse de l'API
-![Texte alternatif](screens\5.png)
+![Texte alternatif](screens/5.png)
 
 
 # Insfastructure as Code (IaC)
@@ -209,11 +209,11 @@ Un réseau Docker nommé `student_network` est créé pour permettre la communic
 
 On lance ```docker-compose.yml``` :
 
-![Texte alternatif](screens\6.png)
+![Texte alternatif](screens/6.png)
 
 Enfin, on accéde au site web ```http://localhost:8080.``` et on clique sur le bouton "List Student" :
 
-![Texte alternatif](screens\7.png)
+![Texte alternatif](screens/7.png)
 
 ## Docker Registry
 
@@ -254,11 +254,11 @@ SUPMIT demande de déployer un registre privé et de stocker les images construi
   ```
   Enfin un registre privé sera créé, et notre image sera poussée.
 
-  ![Texte alternatif](screens\8.png)
+  ![Texte alternatif](screens/8.png)
 
   On vérifie que l'image existe :
 
-  ![Texte alternatif](screens\9.png)
+  ![Texte alternatif](screens/9.png)
 
 # Conclusion
 Ce TP nous a permis de maîtriser les bases de Docker, notamment la conteneurisation d'applications, l'utilisation de Docker Compose pour orchestrer plusieurs services, et la mise en place d'un registre Docker privé avec une interface web.
